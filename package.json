@@ -1,0 +1,21 @@
+{
+  "name": "okta-auth-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wojciech Krawczyk <wojtekk@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "cookie-parser": "1.4.3",
+    "dotenv": "4.0.0",
+    "express": "4.15.2",
+    "express-session": "1.15.2",
+    "hp4t": "0.3.6",
+    "okta-auth": "0.1.2"
+  }
+}
