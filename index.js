@@ -29,7 +29,10 @@ oktaAuth.initialize(app, {
 });
 
 app.get('/', oktaAuth.secured, (req, res) => {
-  res.send(req.session.passport.user);
+  res.write("<pre>\n");
+  res.write("The application works well :)\n\n");
+  res.write("Information about the user: ");
+  res.write(JSON.stringify(req.session.passport.user));
   res.end();
 });
 
